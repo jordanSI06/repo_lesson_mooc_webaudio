@@ -1,0 +1,16 @@
+Week 1 (16/06/2018):
+
+
+-0 Course introduction
+
+-1.1 Sound Synthesis introduction
+    Presentation about sound synthesis, how to generate synthesis sound with synthesizer
+    We can build this sound and instrument with js code
+
+-1.2 Introduction to codecircle
+    (https://live.codecircle.com/)
+    website to build directly our programs.
+    we creating our first program.
+
+-1.3 Our first synthesis
+
