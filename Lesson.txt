@@ -16,6 +16,9 @@ Week 1 (16/06/2018):
     Done with synth1.js/synth1.html
     Product a A tone
 
--1.4 Mouse controlled synth
+-1.4 Mouse controller synth
     Change tonality with the mouse depending of Y-axis and show results.
+
+-1.5 Keyboard controller synth
+    Play some notes with keyboard
 
