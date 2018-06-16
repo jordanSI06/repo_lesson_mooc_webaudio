@@ -12,5 +12,10 @@ Week 1 (16/06/2018):
     website to build directly our programs.
     we creating our first program.
 
--1.3 Our first synthesis
+-1.3 Our first synth
+    Done with synth1.js/synth1.html
+    Product a A tone
+
+-1.4 Mouse controlled synth
+    Change tonality with the mouse depending of Y-axis and show results.
 
