@@ -32,4 +32,6 @@ Week 1 (16/06/2018):
     Can change the type on the signal (triangle, square, sine)
     Can modify the gain of sound in time
 
+-1.7.1 Keyboard v2 controle with smooth song
+    Take method of using envelopes (1.7) and create the smooth song
 
