@@ -13,7 +13,7 @@ function playSynth(){
     amp.gain.linearRampToValueAtTime(0, now + 4); //increase amp.gain.valiue (0.1) to 0 after 4 sec
     osc.frequency.value = Math.random() * 1000;
     osc.connect(amp);
-    osc.type = 'sine'; //triangle, square, sine (by default: sine);
+    osc.type = 'sine'; //triangle, square, sawtooth, sine (by default: sine);
     
     amp.connect(con.destination);
     osc.start();

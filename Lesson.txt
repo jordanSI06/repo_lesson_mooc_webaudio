@@ -35,3 +35,8 @@ Week 1 (16/06/2018):
 -1.7.1 Keyboard v2 controle with smooth song
     Take method of using envelopes (1.7) and create the smooth song
 
+-1.8 Fiddling with the filter
+    filter can remov high frequency and avoid strident sound.
+    the value of the filter can configurate the rate of high frequency
+    the Q factor is the highest point of the curb and the can elevate more or not the curb.
+
