@@ -22,3 +22,14 @@ Week 1 (16/06/2018):
 -1.5 Keyboard controller synth
     Play some notes with keyboard
 
+-1.6 Modulation with an oscillator
+    With mouse, change the modulation of a song
+    creating 2 oscillator
+    creating an amp with gain
+
+-1.7 Using envelopes
+    Create particular song with parameter;
+    Can change the type on the signal (triangle, square, sine)
+    Can modify the gain of sound in time
+
+
