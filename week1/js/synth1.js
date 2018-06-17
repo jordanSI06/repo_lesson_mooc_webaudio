@@ -4,13 +4,13 @@ var osc = con.createOscillator();
 
 osc.connect(con.destination);
 
-osc.frequency.value = 450; //frequency of the tune
+osc.frequency.value = 440; //frequency of the tune
 osc.start();
 
-var element=document.getElementById("result");
-element.innerHTML=osc.frequency.value;
+var hertz=document.getElementById("hertz");
+hertz.innerHTML=osc.frequency.value;
 
-var element2=document.getElementById("sound");
-element2.addEventListener('mousemove', function(){
-    element.innerHTML=osc.frequency.value;
+var sound=document.getElementById("sound");
+sound.addEventListener('mousemove', function(){
+    hertz.innerHTML=osc.frequency.value;
 })

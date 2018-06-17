@@ -1,15 +1,27 @@
+<html>
+<head>
+    <title>Modulator 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
 <body>
     <h1>Modulator 4</h1>
     <p>Test the speed and amplification of a wave</p>
-    <p>lfo.frequency.value=</p>
 
-    <div id="result"></div>
-
+    <table>
+        <tr>
+            <td>Modulation</td>
+            <td><div id="lowfreq"></div></td>
+        </tr>
+    </table>
+    
     <div 
-    id="sound" 
-    style="background:black;height:10%;width:100%" 
-    onmousemove="lfo.frequency.value = event.clientX">
+        id="sound" 
+        style="background:black; height:10%; width:100%"
+        onmousemove="lfo.frequency.value = event.clientX"
+    >
     </div>
 
     <script src="./js/modulator4.js"></script>
 </body>
+</html>

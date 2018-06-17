@@ -1,9 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
 <body>
+
     <div id="sound" style="background:black; height:500px" onmousemove="osc.frequency.value = event.clientY;"></div>
     <h1>Mouse 2</h1>
-    <p>Place your mouse on the black part. The frequency now is equal to:</p>
-    <div id="result"></div>
-    <p>Hz</p>
+    <p>Place your mouse on the black part.</p>
+    
+    <table>
+        <tr>
+            <td>Hertz</td>
+            <td><div id="hertz"></div></td>
+        </tr>
+    </table>
+   
+    
     <script src="./js/synth1.js"></script>
+    
 </body>
 </html>

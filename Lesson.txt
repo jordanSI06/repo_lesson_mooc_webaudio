@@ -40,3 +40,6 @@ Week 1 (16/06/2018):
     the value of the filter can configurate the rate of high frequency
     the Q factor is the highest point of the curb and the can elevate more or not the curb.
 
+-1.9 Correction and improvement
+
+Week 2

@@ -19,12 +19,12 @@ function playSynth(){
     osc.start();
     osc.stop(now +4.1); //just after the end of ramp
 
-    var element=document.getElementById("result");
-    element.innerHTML=osc.frequency.value;
+    var hertz=document.getElementById("hertz");
+    hertz.innerHTML=osc.frequency.value;
 
-    var element2=document.getElementById("sound");
-    element2.addEventListener('mousemove', function(){
-    element.innerHTML=osc.frequency.value;
+    var sound=document.getElementById("sound");
+    sound.addEventListener('mousemove', function(){
+    hertz.innerHTML=osc.frequency.value;
 })
 }
 

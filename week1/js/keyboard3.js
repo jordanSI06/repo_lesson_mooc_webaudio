@@ -3,15 +3,15 @@ var con = new audio_context();
 var osc = con.createOscillator();
 
 osc.connect(con.destination);
-osc.frequency.value = 450; //frequency of the oscilator
+osc.frequency.value = 0; //frequency of the oscilator
 osc.start();
 
-var element=document.getElementById("result");
-element.innerHTML=osc.frequency.value;
+var hertz=document.getElementById("hertz");
+hertz.innerHTML=osc.frequency.value;
 
-var element2=document.getElementById("sound");
-element2.addEventListener('keydown', function(){
-    element.innerHTML=osc.frequency.value;
+var sound=document.getElementById("sound");
+sound.addEventListener('keydown', function(){
+    hertz.innerHTML=osc.frequency.value;
 })
 
 function setNote(key){

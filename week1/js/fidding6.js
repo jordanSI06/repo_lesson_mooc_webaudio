@@ -6,15 +6,15 @@ var filter = con.createBiquadFilter(); //remove the high frequency to avoid stri
 osc.connect(filter);
 filter.connect(con.destination);
 
-osc.frequency.value = 600;
+osc.frequency.value = 0;
 filter.frequency.value = 100; //rate of smooth song, like volume
 osc.type='sawtooth';
 osc.start();
 
-var Hz=document.getElementById("Hz");
+var Hz=document.getElementById("hertz");
 Hz.innerHTML=osc.frequency.value;
 
-var filt=document.getElementById("filterq");
+var filt=document.getElementById("filter");
 filt.innerHTML=filter.frequency.value;
 
 var qfactor=document.getElementById("qfactor");
@@ -36,7 +36,7 @@ element.addEventListener('mousemove', function(){
 
 function changeFilter(mx, my){
     filter.frequency.value = mx*10;
-    filter.Q.value = my / 10; //quality factor (to elevate the highest curb)
+    filter.Q.value = my / 50; //quality factor (to elevate the highest curb)
 }
 
 function setNote(key){

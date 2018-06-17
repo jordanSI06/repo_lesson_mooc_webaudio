@@ -14,10 +14,10 @@ osc.connect(con.destination);
 osc.start();
 lfo.start();
 
-var element=document.getElementById("result");
-element.innerHTML=lfo.frequency.value;
+var lowfreq=document.getElementById("lowfreq");
+lowfreq.innerHTML=lfo.frequency.value;
 
-var element2=document.getElementById("sound");
-element2.addEventListener('mousemove', function(){
-    element.innerHTML=lfo.frequency.value;
+var sound=document.getElementById("sound");
+sound.addEventListener('mousemove', function(){
+    lowfreq.innerHTML=lfo.frequency.value;
 })

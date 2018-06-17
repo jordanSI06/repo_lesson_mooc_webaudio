@@ -1,3 +1,4 @@
+//Bonus synth
 var audio_context = window.AudioContext || window.webkitAudioContext; //depending of device
 var con = new audio_context();
 
