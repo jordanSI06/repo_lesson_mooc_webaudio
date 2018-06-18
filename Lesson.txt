@@ -26,7 +26,6 @@ Week 1 (16/06/2018):
     With mouse, change the modulation of a song
     creating 2 oscillator
     creating an amp with gain
-
 -1.7 Using envelopes
     Create particular song with parameter;
     Can change the type on the signal (triangle, square, sine)
@@ -42,4 +41,12 @@ Week 1 (16/06/2018):
 
 -1.9 Correction and improvement
 
-Week 2
+Week 2 (18/06/2018)
+
+-2.1 User interfaces introduction
+    button, slider, object we can interact with to modificate sound...
+
+-2.2 Intro with NexusUI (User Interface)
+    Graphic interface library (using with codelive)
+    creating dial, slider and keyboard
+
