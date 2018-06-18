@@ -56,3 +56,9 @@ Week 2 (18/06/2018)
 -2.4 Piano controller
     Create piano controller
     Mapping sound frequency on touch
+
+-2.4.1 Piano controller improvement
+    put more key
+    make smooth sound
+    show oscillator
+
