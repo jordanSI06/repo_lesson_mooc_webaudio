@@ -53,3 +53,6 @@ Week 2 (18/06/2018)
 -2.3 Interaction with element
     create frequency sound with the dial element
 
+-2.4 Piano controller
+    Create piano controller
+    Mapping sound frequency on touch
