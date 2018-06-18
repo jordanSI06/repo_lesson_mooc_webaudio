@@ -50,3 +50,6 @@ Week 2 (18/06/2018)
     Graphic interface library (using with codelive)
     creating dial, slider and keyboard
 
+-2.3 Interaction with element
+    create frequency sound with the dial element
+

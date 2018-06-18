@@ -12,10 +12,6 @@ var slider = new Nexus.Slider('#slider',{
     mode: 'absolute'
 });
 
-var keyboard = new Nexus.Keyboard('#keyboard',{
-    
-})
-
 slider.on('change',function(v) {
 // do something with v!
 });
