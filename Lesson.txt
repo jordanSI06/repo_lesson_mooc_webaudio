@@ -62,3 +62,22 @@ Week 2 (18/06/2018)
     make smooth sound
     show oscillator
 
+-2.4.2 Piano controller improvement v2
+    add volume button
+    add position to play with the form of the sound
+    replace input radio by radiobutton (or select)
+
+-2.5 Tilt Sens control
+    How to controle the frequency thanks to the sensor of the phone, but not useful
+
+Week 3
+
+For this chapter, only code working on codelive will be added, not working on classic webpage
+
+-3.1 Drum Machine introduction
+    Presenting what is a drum machine (very important for a drum machine to have an accurate clock);
+
+-3.2 Load and play samples
+
+Play a short track on press key.
+
