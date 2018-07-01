@@ -81,3 +81,8 @@ For this chapter, only code working on codelive will be added, not working on cl
 
 Play a short track on press key.
 
+-3.3 Play with timer
+
+Using timer to play a track
+
+
