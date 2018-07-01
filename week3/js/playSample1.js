@@ -1,12 +1,7 @@
 var audio_context = window.AudioContext || window.webkitAudioContext;
     
     var con = new audio_context();
-    
     var hat;
-    
-    loadSample('./media/Bass-Drum-3.wav', function (buffer){
-       hat = buffer;
-    });
     
     function playKick(){
         var player = con.createBufferSource();
@@ -29,3 +24,7 @@ var audio_context = window.AudioContext || window.webkitAudioContext;
         };
         request.send();
     }
+
+    loadSample('./media/Bass-Drum-3.wav', function (buffer){
+        hat = buffer;
+     });

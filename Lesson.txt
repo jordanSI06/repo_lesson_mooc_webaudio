@@ -85,4 +85,4 @@ Play a short track on press key.
 
 Using timer to play a track
 
-
+TODO 3.3.1: Improvement, User can choose the bpm and the statement (using Nexus API)
